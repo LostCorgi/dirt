@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.10)  # 3.8 gives us built-in CUDA support; 3.10 gives us OpenGL::EGL
-set(CMAKE_CUDA_COMPILER "/usr/local/cuda-9.0/bin/nvcc")
+set(CMAKE_CUDA_COMPILER "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.0\bin\nvcc")
 project(dirt LANGUAGES CXX CUDA)
 
 find_package(OpenGL REQUIRED COMPONENTS OpenGL EGL)
